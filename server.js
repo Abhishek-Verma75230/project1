@@ -23,7 +23,7 @@ app.use('/',Router);
 
 
 
- app.use(express.static(path.join(__dirname,"client/build")));
+ app.use(express.static(path.join(__dirname,"./client/build")));
 
 
 app.get('*',function(_,res){
